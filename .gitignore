@@ -1,0 +1,57 @@
+# Arquivos e diretórios gerados pelo Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos de configuração local
+.env
+*.local
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema operacional
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Arquivos de editores/IDEs
+.vscode/  # Visual Studio Code
+.idea/    # PyCharm/IntelliJ
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de dependências instaladas
+site-packages/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Arquivos de testes/cobertura
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+htmlcov/
+
+# Arquivos de dados sensíveis
+*.pem
+*.key
+*.cert
+*.pfx
+
+# Arquivos de cache ou temporários
+*.cache
+*.swp
+*.swo
+
+# Outros arquivos comuns
+*.bak
+*.swp
+*~
